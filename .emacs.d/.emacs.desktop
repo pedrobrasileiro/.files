@@ -2,9 +2,9 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Jan 28 14:49:22 2011
+;; Created Sat Jan 29 11:09:04 2011
 ;; Desktop file format version 206
-;; Emacs version 23.1.50.1
+;; Emacs version 23.2.1
 
 ;; Global section:
 (setq desktop-missing-file-warning nil)
@@ -13,82 +13,38 @@
 (setq search-ring '("WS_EX" "find" "ruby"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/pedrobrasileiro/.emacs" "/home/pedrobrasileiro/Projetos/PACE/app/controllers/bairros_controller.rb" "/home/pedrobrasileiro/.emacs" "/home/pedrobrasileiro/Projetos/PACE/Gemfile" "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/area_localidades_module.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/" "~/Projetos/SIGET_GIT/" "~/Projetos/semaforo_transacoes/" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/app/controllers/semaforos_controller.rb" "~/Projetos/SIGET_GIT/lib/detran_authentication.rb" "/home/pedrobrasileiro/.emacs" "~/Projetos/SIGET_GIT/" "/home/pedrobrasileiro/Projetos/SIGET_GIT/config/initializers/constantes.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/detran_authentication.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/app/models/identidade.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/config/initializers/constantes.rb" "/sudo:root@localhost:/etc/hosts" "/etc/hosts" "/home/pedrobrasileiro/Desktop/ssh_gcomicom.txt" "/etc/hosts" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/.gitignore" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/config/environments/development.rb" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/config/environment.rb" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/app/views/layouts/application.html.haml" "~/Projetos/semaforo_transacoes/app/views/layouts/application.html.haml" "~/Projetos/semaforo_transacoes/app/views/layouts/application.html.erb" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/app/views/layouts/application.html.erb" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/public/stylesheets/application.css" "/home/pedrobrasileiro/Projetos/SIGET_GIT/app/views/veiculo_regulars/index.html.erb" "~/Projetos/semaforo_transacoes/public/images/spinner.gif"))
+(setq file-name-history '("/Users/pedrobrasileiro/.emacs" "/Users/pedrobrasileiro/Desenvolvimento/.files/.emacs.d/linux.el" "/Users/pedrobrasileiro/Desenvolvimento/.files/.emacs.d/macos.el" "/Users/pedrobrasileiro/.emacs.d/linux.el" "/Users/pedrobrasileiro/Desenvolvimento/.files/.emacs.d/linux.el" "/Users/pedrobrasileiro/Desenvolvimento/.files/.emacs.d/.linux.el" "/Users/pedrobrasileiro/.emacs" "/home/pedrobrasileiro/.emacs" "/home/pedrobrasileiro/Projetos/PACE/app/controllers/bairros_controller.rb" "/home/pedrobrasileiro/.emacs" "/home/pedrobrasileiro/Projetos/PACE/Gemfile" "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/area_localidades_module.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/" "~/Projetos/SIGET_GIT/" "~/Projetos/semaforo_transacoes/" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/app/controllers/semaforos_controller.rb" "~/Projetos/SIGET_GIT/lib/detran_authentication.rb" "/home/pedrobrasileiro/.emacs" "~/Projetos/SIGET_GIT/" "/home/pedrobrasileiro/Projetos/SIGET_GIT/config/initializers/constantes.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/detran_authentication.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/app/models/identidade.rb" "/home/pedrobrasileiro/Projetos/SIGET_GIT/config/initializers/constantes.rb" "/sudo:root@localhost:/etc/hosts" "/etc/hosts" "/home/pedrobrasileiro/Desktop/ssh_gcomicom.txt" "/etc/hosts" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/.gitignore" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/config/environments/development.rb" "/home/pedrobrasileiro/Projetos/semaforo_transacoes/config/environment.rb"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/pedrobrasileiro/.emacs"
+  "/Users/pedrobrasileiro/Desenvolvimento/.files/.emacs"
   ".emacs"
   'emacs-lisp-mode
-  '(yas/minor-mode)
-  40
-  '(1938 nil)
+  nil
+  1089
+  '(1010 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/area_localidades_module.rb"
-  "area_localidades_module.rb"
-  'ruby-mode
-  '(yas/minor-mode flymake-mode)
-  224
-  '(224 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/pedrobrasileiro/Projetos/semaforo_transacoes/app/controllers/semaforos_controller.rb"
-  "semaforos_controller.rb"
-  'ruby-mode
-  '(yas/minor-mode flymake-mode)
-  875
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/pedrobrasileiro/Projetos/SIGET_GIT/lib/detran_authentication.rb"
-  "detran_authentication.rb"
-  'ruby-mode
-  '(yas/minor-mode flymake-mode)
-  1
-  '(2531 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "SIGET_GIT"
-  'dired-mode
-  '(yas/minor-mode)
-  1788
-  '(nil nil)
-  t
-  '("/home/pedrobrasileiro/Projetos/SIGET_GIT/")
-  nil)
-
-(desktop-create-buffer 206
-  nil
-  "tmp"
-  'dired-mode
-  '(yas/minor-mode)
-  240
-  '(nil nil)
-  t
-  '("/home/pedrobrasileiro/Projetos/SIGET_GIT/tmp/")
-  nil)
-
-(desktop-create-buffer 206
-  "/home/pedrobrasileiro/.emacs.d/elpa/yasnippet-bundle-0.6.1/yasnippet-bundle-autoloads.el"
-  "yasnippet-bundle-autoloads.el"
+  "/Users/pedrobrasileiro/Desenvolvimento/.files/.emacs.d/macos.el"
+  "macos.el"
   'emacs-lisp-mode
-  '(yas/minor-mode)
-  1257
-  '(nil nil)
+  nil
+  326
+  '(43 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/pedrobrasileiro/.emacs.d/linux.el"
+  "linux.el"
+  'emacs-lisp-mode
+  nil
+  30
+  '(313 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))

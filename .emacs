@@ -20,60 +20,24 @@
 (set-scroll-bar-mode 'right) 
 
 ;; Packages ELPA
-(let ((buffer (url-retrieve-synchronously
-	       "http://tromey.com/elpa/package-install.el")))
-  (save-excursion
-    (set-buffer buffer)
-    (goto-char (point-min))
-    (re-search-forward "^$" nil 'move)
-    (eval-region (point) (point-max))
-    (kill-buffer (current-buffer))))
-
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
-(when
-    (load
-     (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))
-
-(maybe-require 'color-theme (color-theme-charcoal-black))
+;;(let ((buffer (url-retrieve-synchronously
+;;	       "http://tromey.com/elpa/package-install.el")))
+;;  (save-excursion
+;;    (set-buffer buffer)
+;;    (goto-char (point-min))
+;;    (re-search-forward "^$" nil 'move)
+;;    (eval-region (point) (point-max))
+;;    (kill-buffer (current-buffer))))
 
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(ansi-color-for-comint-mode t)
- '(desktop-path (quote ("~/.emacs.d/")))
- '(desktop-save-mode t)
- '(recentf-mode t))
-(custom-set-faces
+  '(ansi-color-for-comint-mode t)
+  '(desktop-path (quote ("~/.emacs.d/")))
+  '(desktop-save-mode t)
+  '(recentf-mode t))
 
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "Grey15" :foreground "Grey" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
-(when
-    (load
-     (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))
+;; Configurações específicas por OS
+(setq macosx-p (string-match "darwin" (symbol-name system-type)))
+(setq linux-p (string-match "linux" (symbol-name system-type)))
+(if macosx-p (load-file ".emacs.d/macos.el"))
+(if linux-p (load-file ".emacs.d/linux.el"))
 
-
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
-(when
-    (load
-     (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))
