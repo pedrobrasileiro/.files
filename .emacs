@@ -5,8 +5,10 @@
 (require 'slim-mode)
 (require 'flymake-ruby)
 (require 'haml-mode)
+(require 'window-numbering)
 
 (linum-mode t)
+(window-numbering-mode t)
 
 (add-hook 'ruby-mode-hook
 	  (lambda ()
