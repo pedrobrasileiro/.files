@@ -1,8 +1,13 @@
 Minhas configurações do emacs (http://www.gnu.org/software/emacs)
 
+Add-ons
 - flymake-ruby
 - slim-mode
 - haml-mode
 - linum-mode
 - elpa
 - yasnipper
+- window-numbering
+
+Temas
+- Twilight
