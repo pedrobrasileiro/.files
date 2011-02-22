@@ -6,6 +6,7 @@
 (require 'flymake-ruby)
 (require 'haml-mode)
 (require 'window-numbering)
+(require 'go-mode)
 
 (linum-mode t)
 (window-numbering-mode t)

@@ -1,4 +1,9 @@
 ;; Configurações específicas no Mac OS X
 
+;; (require 'color-theme)
+;; (load-file "~/.emacs.d/themes/twilight.el")
+
+;; (color-theme-twilight)
+
 (custom-set-faces
- '(default ((t (:inherit nil :stipple nil :background "Grey15" :foreground "Grey" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+  '(default ((t (:inherit nil :stipple nil :height 120 :width normal)))))
