@@ -10,6 +10,7 @@
 
 (linum-mode t)
 (window-numbering-mode t)
+(setq ido-enable-flex-matching t)
 
 (add-hook 'ruby-mode-hook
 	  (lambda ()
