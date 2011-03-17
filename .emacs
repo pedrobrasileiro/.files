@@ -8,6 +8,7 @@
 (require 'window-numbering)
 (require 'go-mode)
 
+(global-auto-revert-mode t)
 (linum-mode t)
 (window-numbering-mode t)
 (setq ido-enable-flex-matching t)

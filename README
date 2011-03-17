@@ -5,6 +5,7 @@ Add-ons
 - slim-mode
 - haml-mode
 - linum-mode
+- global-revert-mode
 - elpa
 - yasnipper
 - window-numbering
