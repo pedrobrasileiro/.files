@@ -9,7 +9,7 @@
 (require 'go-mode)
 
 (global-auto-revert-mode t)
-(linum-mode t)
+(global-linum-mode t)
 (window-numbering-mode t)
 (setq ido-enable-flex-matching t)
 
@@ -42,7 +42,12 @@
  '(ansi-color-for-comint-mode t)
  '(desktop-path (quote ("~/.emacs.d/")))
  '(desktop-save-mode t)
- '(recentf-mode t))
+ '(recentf-mode t)
+ '(timeclock-ask-before-exiting t)
+ '(timeclock-modeline-display t nil (timeclock))
+ '(timeclock-relative nil)
+ '(timeclock-use-display-time t nil (time))
+ '(timeclock-workday 32400))
 
 ;; Configurações específicas por OS
 (setq macosx-p (string-match "darwin" (symbol-name system-type)))
