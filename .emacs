@@ -12,7 +12,7 @@
 (global-linum-mode t)
 (window-numbering-mode t)
 (setq ido-enable-flex-matching t)
-
+(tool-bar-mode nil)
 (add-hook 'ruby-mode-hook
 	  (lambda ()
 	    (local-set-key "\C-m" 'newline-and-indent)
