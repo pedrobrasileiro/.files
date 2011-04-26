@@ -50,8 +50,9 @@
  '(timeclock-workday 32400))
 
 ;; Configurações específicas por OS
-(setq macosx-p (eq 'darwin system-type))
-(setq linux-p (eq 'linux system-type))
+(setq macosx-p (string-match "darwin" (symbol-name system-type)))
+(setq linux-p (string-match "linux" (symbol-name system-type)))
+
 (if macosx-p (load-file "~/.emacs.d/macos.el"))
 (if linux-p (load-file "~/.emacs.d/linux.el"))
 
