@@ -12,7 +12,7 @@
 (global-linum-mode t)
 (window-numbering-mode t)
 (setq ido-enable-flex-matching t)
-(tool-bar-mode nil)
+(tool-bar-mode 0)
 (add-hook 'ruby-mode-hook
 	  (lambda ()
 	    (local-set-key "\C-m" 'newline-and-indent)
@@ -50,15 +50,14 @@
  '(timeclock-workday 32400))
 
 ;; Configurações específicas por OS
-(setq macosx-p (string-match "darwin" (symbol-name system-type)))
-(setq linux-p (string-match "linux" (symbol-name system-type)))
-(if macosx-p (load-file ".emacs.d/macos.el"))
-(if linux-p (load-file ".emacs.d/linux.el"))
+(setq macosx-p (eq 'darwin system-type))
+(setq linux-p (eq 'linux system-type))
+(if macosx-p (load-file "~/.emacs.d/macos.el"))
+(if linux-p (load-file "~/.emacs.d/linux.el"))
 
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :height 100 :width normal))))
  '(linum ((t (:background "#141314" :foreground "#C0C0C0")))))
