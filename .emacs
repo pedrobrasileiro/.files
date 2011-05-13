@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/twittering-mode/")
 
 (require 'geral)
 (require 'ansi-color)
@@ -7,6 +8,7 @@
 (require 'haml-mode)
 (require 'window-numbering)
 (require 'go-mode)
+(require 'twittering-mode)
 
 (global-auto-revert-mode t)
 (global-linum-mode t)
