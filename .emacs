@@ -1,5 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/")
 (add-to-list 'load-path "~/.emacs.d/twittering-mode/")
+(add-to-list 'load-path "~/.emacs.d/titanium/")
 
 (require 'geral)
 (require 'ansi-color)
@@ -9,9 +10,11 @@
 (require 'window-numbering)
 (require 'go-mode)
 (require 'twittering-mode)
+(require 'titanium)
 
 (global-auto-revert-mode t)
 (global-linum-mode t)
+(global-titanium t)
 (window-numbering-mode t)
 (setq ido-enable-flex-matching t)
 (tool-bar-mode 0)
