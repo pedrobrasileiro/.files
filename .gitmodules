@@ -1,0 +1,3 @@
+[submodule ".emacs.d/titanium"]
+	path = .emacs.d/titanium
+	url = git@github.com:pedrobrasileiro/emacs-titanium.git
