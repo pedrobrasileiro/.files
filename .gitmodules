@@ -1,3 +1,6 @@
 [submodule ".emacs.d/titanium"]
 	path = .emacs.d/titanium
 	url = git@github.com:pedrobrasileiro/emacs-titanium.git
+[submodule ".emacs.d/maxframe"]
+	path = .emacs.d/maxframe
+	url = git://github.com/rmm5t/maxframe.el.git
