@@ -4,3 +4,6 @@
 [submodule ".emacs.d/maxframe"]
 	path = .emacs.d/maxframe
 	url = git://github.com/rmm5t/maxframe.el.git
+[submodule ".emacs.d/java-mode"]
+	path = .emacs.d/java-mode
+	url = https://github.com/skeeto/emacs-java.git
