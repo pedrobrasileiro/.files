@@ -1,5 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/")
-(add-to-list 'load-path "~/.emacs.d/twittering-mode/")
+;; (add-to-list 'load-path "~/.emacs.d/twittering-mode/")
 (add-to-list 'load-path "~/.emacs.d/titanium/")
 (add-to-list 'load-path "~/.emacs.d/java-mode/")
 
@@ -10,11 +10,11 @@
 (require 'haml-mode)
 (require 'window-numbering)
 (require 'go-mode)
-(require 'twittering-mode)
+;; (require 'twittering-mode)
 ;; (require 'titanium)
 
-(require 'java-mode-plus)
-(require 'java-docs)
+;; (require 'java-mode-plus)
+;; (require 'java-docs)
 
 (global-auto-revert-mode t)
 (global-linum-mode t)
