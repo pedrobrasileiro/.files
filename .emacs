@@ -10,6 +10,7 @@
 (require 'haml-mode)
 (require 'window-numbering)
 (require 'go-mode)
+(require 'php-mode)
 ;; (require 'twittering-mode)
 ;; (require 'titanium)
 
