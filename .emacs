@@ -1,5 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/")
 (add-to-list 'load-path "~/.emacs.d/twittering-mode/")
+(add-to-list 'load-path "~/.emacs.d/titanium/")
 (add-to-list 'load-path "~/.emacs.d/java-mode/")
 (add-to-list 'load-path "~/.emacs.d/pivotal-tracker-mode/")
 
@@ -12,10 +13,11 @@
 (require 'go-mode)
 (require 'pivotal-tracker)
 (require 'twittering-mode)
+(require 'php-mode)
 ;; (require 'titanium)
 
-(require 'java-mode-plus)
-(require 'java-docs)
+;; (require 'java-mode-plus)
+;; (require 'java-docs)
 
 (global-auto-revert-mode t)
 (global-linum-mode t)
