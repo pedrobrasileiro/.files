@@ -7,3 +7,6 @@
 [submodule ".emacs.d/java-mode"]
 	path = .emacs.d/java-mode
 	url = https://github.com/skeeto/emacs-java.git
+[submodule ".emacs.d/pivotal-tracker-mode"]
+	path = .emacs.d/pivotal-tracker-mode
+	url = git://github.com/jxa/pivotal-tracker.git
