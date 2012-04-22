@@ -1,5 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/")
-(add-to-list 'load-path "~/.emacs.d/twittering-mode/")
+; (add-to-list 'load-path "~/.emacs.d/twittering-mode/")
 (add-to-list 'load-path "~/.emacs.d/titanium/")
 (add-to-list 'load-path "~/.emacs.d/java-mode/")
 (add-to-list 'load-path "~/.emacs.d/pivotal-tracker-mode/")
@@ -12,7 +12,7 @@
 (require 'window-numbering)
 (require 'go-mode)
 (require 'pivotal-tracker)
-(require 'twittering-mode)
+; (require 'twittering-mode)
 (require 'php-mode)
 ;; (require 'titanium)
 
