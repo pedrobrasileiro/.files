@@ -1,6 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/")
 ; (add-to-list 'load-path "~/.emacs.d/twittering-mode/")
-(add-to-list 'load-path "~/.emacs.d/titanium/")
 (add-to-list 'load-path "~/.emacs.d/java-mode/")
 (add-to-list 'load-path "~/.emacs.d/pivotal-tracker-mode/")
 
@@ -14,14 +13,12 @@
 (require 'pivotal-tracker)
 ; (require 'twittering-mode)
 (require 'php-mode)
-;; (require 'titanium)
 
 ;; (require 'java-mode-plus)
 ;; (require 'java-docs)
 
 (global-auto-revert-mode t)
 (global-linum-mode t)
-;; (global-titanium t)
 (window-numbering-mode t)
 (setq ido-enable-flex-matching t)
 
@@ -29,6 +26,8 @@
 (autoload 'alpaca-after-find-file "alpaca" nil t)
 (add-hook 'find-file-hooks 'alpaca-after-find-file)
 (setq twittering-use-master-password t)
+(setq-default indent-tabs-mode nil) ; always replace tabs with spaces
+(setq-default tab-width 4) ; set tab width to 4 for all buffers
 
 (tool-bar-mode 0)
 (add-hook 'ruby-mode-hook
