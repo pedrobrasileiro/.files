@@ -2,7 +2,10 @@ softTabs = true
 tabSize = 4
 
 excludeDirectories = "build"
+excludeDirectoriesInBrowser = "build"
 excludeFiles = "build.log"
+excludeFilesInBrowser = "build.log"
+
 includeFiles = ".gitignore"
 
 TM_HG  = "/opt/local/bin/hg"
