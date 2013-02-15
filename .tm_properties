@@ -10,6 +10,7 @@ includeFiles = ".gitignore"
 
 TM_HG  = "/opt/local/bin/hg"
 TM_GIT = "/opt/local/bin/git"
+projectDirectory = "$CWD"
 
 [ "{README,INSTALL,LICENSE,TODO}" ]
 fileType         = "text.plain"
