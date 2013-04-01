@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon'
-let g:netrw_dirhist_2='/Users/pedrobrasileiro/Desenvolvimento'
-let g:netrw_dirhist_3='/Users/pedrobrasileiro/Desenvolvimento/Projetos'
-let g:netrw_dirhist_4='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO'
-let g:netrw_dirhist_5='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace'
-let g:netrw_dirhist_6='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon'
-let g:netrw_dirhist_7='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/Resources'
-let g:netrw_dirhist_8='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/app'
-let g:netrw_dirhist_9='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/app/views'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/app/lib'
