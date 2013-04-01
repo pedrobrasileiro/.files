@@ -1,3 +1,4 @@
+.DS_Store
 .emacs.d/.emacs.*
 .emacs.d/auto-save-list
 .emacs.d/session*
