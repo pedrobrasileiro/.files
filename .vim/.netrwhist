@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/app/lib'
-let g:netrw_dirhist_2='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/app/controllers'
-let g:netrw_dirhist_3='/Users/pedrobrasileiro/Desenvolvimento/Projetos/hanzo_stuffs/titanium/libs/ManagerLogin/app/controllers'
-let g:netrw_dirhist_4='/Users/pedrobrasileiro/Desenvolvimento/Projetos/hanzo_stuffs/titanium/libs/ManagerLogin/app'
-let g:netrw_dirhist_5='/Users/pedrobrasileiro/Desenvolvimento/Projetos/hanzo_stuffs/titanium/libs/ManagerLogin/app/controllers'
-let g:netrw_dirhist_6='/Users/pedrobrasileiro/Desenvolvimento/Projetos/hanzo_stuffs/titanium/libs/ManagerLogin/app'
-let g:netrw_dirhist_7='/Users/pedrobrasileiro/Desenvolvimento/Projetos/hanzo_stuffs/titanium/libs/ManagerLogin/app/controllers'
-let g:netrw_dirhist_8='/Users/pedrobrasileiro/Desenvolvimento/Projetos/HANZO/workspace/MobileCoupon/app/controllers'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/pedrobrasileiro/Desenvolvimento/Projetos/suavenda.com/web/spec/models'
