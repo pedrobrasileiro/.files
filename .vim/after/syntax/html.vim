@@ -27,3 +27,4 @@ syn include @htmlCss syntax/css/css3-transitions.vim
 syn include @htmlCss syntax/css/css3-ui.vim
 syn include @htmlCss syntax/css/css3-values.vim
 syn include @htmlCss syntax/css/css3-writing-modes.vim
+syn include syntax/slim.vim
